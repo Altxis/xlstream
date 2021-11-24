@@ -26,6 +26,15 @@ Array [
 ]
 `;
 
+exports[`added encoding option support workbook 1`] = `
+Array [
+  Object {
+    "hidden": false,
+    "name": "Sheet1",
+  },
+]
+`;
+
 exports[`adds empty rows not containing data when ignoreEmpty is false 1`] = `
 Array [
   Object {

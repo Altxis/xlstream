@@ -355,3 +355,12 @@ it('added encoding option support', async (done) => {
         done();
     })
 });
+
+it('added encoding option support workbook', async (done) => {
+    const workbook = await getWorksheets({
+        filePath: './tests/assets/added-encoding-option-support-workbook.xlsx',
+        encoding: 'utf8'
+    });
+    expect(workbook).toMatchSnapshot();
+    done();
+});
